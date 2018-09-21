@@ -1,0 +1,112 @@
+html,
+body {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+a {
+    color: lightpink;
+}
+
+
+i {
+    display: inline;
+    color: lightpink;
+    padding: 10px
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+#email {
+    height: 30px;
+}
+
+#submit-button {
+    background-color: lightpink;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+.social-media {
+    left: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.icon-container {
+    position: relative;
+    right: 50%;
+    text-align: center;
+
+}
+
+p {
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .icon-container {
+        position: fixed;
+        right: 0;
+        margin-right: 10px;
+
+    }
+
+    .footer {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* 
+    form {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .info p {
+        margin: 10px;
+    }
+
+    .info input {
+        margin: 10px;
+    }
+
+    .info {
+        text-align: center;
+    } */
+
+
+
+
+}
